@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daniel Jaeger — Portafolio</title>
+  <meta name="description" content="Portafolio de Daniel Jaeger — técnico de sistemas y programador." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Daniel Jaeger</h1>
+    <p>“Dadme un ordenador y moveré el mundo.”</p>
+    <p>Técnico de sistemas y programador apasionado por la ciberseguridad, el desarrollo web y la optimización de sistemas Linux.</p>
+    <a class="btn" href="https://github.com/DanielJaeger90" target="_blank">GitHub</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">LinkedIn</a>
+  </section>
+
+  <section id="about" class="card">
+    <h2>Sobre mí</h2>
+    <p>Soy técnico de sistemas con formación en programación, administración y ciberseguridad. Me apasiona diseñar soluciones tecnológicas eficientes, tanto en software como en hardware. Disfruto creando sistemas Linux personalizados, desarrollando herramientas en Python y fabricando consolas retro.</p>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Lenguajes y Sistemas</h2>
+    <ul>
+      <li><strong>Lenguajes:</strong> Python, Java, C, C++, HTML, CSS, JavaScript, SQL, COBOL, PHP</li>
+      <li><strong>Sistemas:</strong> Linux (Ubuntu, Debian, Red Hat, Kali), SAP, GNOME, KDE</li>
+      <li><strong>Otras habilidades:</strong> Excel avanzado, redes LAN, administración y soporte técnico</li>
+    </ul>
+    <h3>Formación</h3>
+    <ul>
+      <li>CP Nivel 2 en Sistemas Microinformáticos (560 h, 2025)</li>
+      <li>Proyectos en C — 42 Urduliz (2 años, 2023)</li>
+      <li>Cursos: Machine Learning, Seguridad Informática, Big Data, eCommerce, Redes LAN, Excel avanzado</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="card">
+    <h2>Experiencia</h2>
+
+    <h3>Autónomo — Daniel Jaeger (2024–Actualidad)</h3>
+    <ul>
+      <li>Reparación y optimización de sistemas Linux</li>
+      <li>Clases particulares de programación</li>
+      <li>Fabricación de consolas retro</li>
+      <li>Desarrollo de páginas web</li>
+    </ul>
+
+    <h3>Zeleris — Administrativo (2023–Actualidad)</h3>
+    <p>Gestión logística, mantenimiento de terminales, uso de SAP y Excel.</p>
+
+    <h3>Albia — Funerario / Administrativo (2021–2023)</h3>
+    <p>Tramitación, tanatoestética, SAP Fiori, contabilidad y gestión documental.</p>
+
+    <h3>Lubricantes Delta — Subdelegado en Vitoria</h3>
+    <p>Gestión de pedidos, contabilidad, rutas de suministro y atención a clientes.</p>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Proyectos</h2>
+    <div class="grid">
+      <article class="project">
+        <h3>Consola Retro Personalizada</h3>
+        <p>Diseño y montaje de una consola retro con hardware reciclado y sistemas Linux ligeros.</p>
+        <p class="tags">Hardware · Linux · Retrobat</p>
+      </article>
+      <article class="project">
+        <h3>Scripts de Automatización</h3>
+        <p>Automatización de tareas en Python y Bash para mantenimiento de sistemas.</p>
+        <p class="tags">Python · Bash · Linux</p>
+      </article>
+      <article class="project">
+        <h3>Desarrollo Web</h3>
+        <p>Diseño de páginas web estáticas y dinámicas con HTML, CSS y PHP.</p>
+        <p class="tags">HTML · CSS · PHP</p>
+      </article>
+      <article class="project">
+        <h3>Proyectos 42 Urduliz</h3>
+        <p>Ejercicios y aplicaciones en C enfocados en optimización y seguridad.</p>
+        <p class="tags">C · Ciberseguridad · Algoritmos</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contacto</h2>
+    <p>📧 <a href="mailto:daniel.iturralde.26@gmail.com">daniel.iturralde.26@gmail.com</a></p>
+    <p>💼 <a href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">LinkedIn</a></p>
+    <p>🧰 <a href="https://github.com/DanielJaeger90" target="_blank">GitHub</a></p>
+    <p>📱 +34 638 359 869</p>
+
+    <form action="https://formspree.io/f/xxxxx" method="POST">
+      <label>Nombre<input type="text" name="name" required></label>
+      <label>Mensaje<textarea name="message" required></textarea></label>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Daniel Jaeger — Portafolio personal</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
