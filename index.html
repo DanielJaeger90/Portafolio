@@ -1,119 +1,228 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Daniel Jaeger — Portafolio</title>
-  <meta name="description" content="Portafolio de Daniel Jaeger — técnico de sistemas y programador." />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Daniel Jaeger: desarrollador, técnico de sistemas y creador de videojuegos.">
+    <title>Daniel Jaeger — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#about">Sobre mí</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#experience">Experiencia</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#contact">Contacto</a>
-    </nav>
-  </header>
+    <div id="top"></div>
 
-  <section class="hero">
-    <h1>Daniel Jaeger</h1>
-    <p>“Dadme un ordenador y moveré el mundo.”</p>
-    <p>Técnico de sistemas y programador apasionado por la ciberseguridad, el desarrollo web y la optimización de sistemas Linux.</p>
-    <a class="btn" href="https://github.com/DanielJaeger90" target="_blank">GitHub</a>
-    <a class="btn ghost" href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">LinkedIn</a>
-  </section>
+    <!-- ================= HEADER ================= -->
+    <header>
+        <div class="header-content">
+            <h2>DANIEL JAEGER</h2>
 
-  <section id="about" class="card">
-    <h2>Sobre mí</h2>
-    <p>Soy técnico de sistemas con formación en programación, administración y ciberseguridad. Me apasiona diseñar soluciones tecnológicas eficientes, tanto en software como en hardware. Disfruto creando sistemas Linux personalizados, desarrollando herramientas en Python y fabricando consolas retro.</p>
-  </section>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
 
-  <section id="skills" class="card">
-    <h2>Lenguajes y Sistemas</h2>
-    <ul>
-      <li><strong>Lenguajes:</strong> Python, Java, C, C++, HTML, CSS, JavaScript, SQL, COBOL, PHP</li>
-      <li><strong>Sistemas:</strong> Linux (Ubuntu, Debian, Red Hat, Kali), SAP, GNOME, KDE</li>
-      <li><strong>Otras habilidades:</strong> Excel avanzado, redes LAN, administración y soporte técnico</li>
-    </ul>
-    <h3>Formación</h3>
-    <ul>
-      <li>CP Nivel 2 en Sistemas Microinformáticos (560 h, 2025)</li>
-      <li>Proyectos en C — 42 Urduliz (2 años, 2023)</li>
-      <li>Cursos: Machine Learning, Seguridad Informática, Big Data, eCommerce, Redes LAN, Excel avanzado</li>
-    </ul>
-  </section>
+            <div class="menu-btn" id="menu-btn">
+                <span></span><span></span><span></span>
+            </div>
 
-  <section id="experience" class="card">
-    <h2>Experiencia</h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/danieljaeger90/" target="_blank">
+                    <img src="images/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://github.com/DanielJaeger90" target="_blank">
+                    <img src="images/github.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </header>
 
-    <h3>Autónomo — Daniel Jaeger (2024–Actualidad)</h3>
-    <ul>
-      <li>Reparación y optimización de sistemas Linux</li>
-      <li>Clases particulares de programación</li>
-      <li>Fabricación de consolas retro</li>
-      <li>Desarrollo de páginas web</li>
-    </ul>
+    <!-- ================= HERO ================= -->
+    <section class="hero fade-in">
+        <h1>Desarrollador, Técnico de Sistemas y Creador</h1>
+        <p>Especializado en ciberseguridad, videojuegos y tecnología creativa.</p>
 
-    <h3>Zeleris — Administrativo (2023–Actualidad)</h3>
-    <p>Gestión logística, mantenimiento de terminales, uso de SAP y Excel.</p>
+        <a href="#proyectos" class="btn-main">Ver proyectos</a>
+        <a href="#contacto" class="btn-main btn-outline">Contacto</a>
+    </section>
 
-    <h3>Albia — Funerario / Administrativo (2021–2023)</h3>
-    <p>Tramitación, tanatoestética, SAP Fiori, contabilidad y gestión documental.</p>
+    <!-- ================= SOBRE MÍ ================= -->
+    <section id="sobre-mi" class="fade-in sobre-mi-premium">
+        <h2 class="titulo-seccion">Sobre mí</h2>
 
-    <h3>Lubricantes Delta — Subdelegado en Vitoria</h3>
-    <p>Gestión de pedidos, contabilidad, rutas de suministro y atención a clientes.</p>
-  </section>
+        <div class="sobre-mi-imagenes-premium">
+            <div class="sobre-mi-img-wrapper">
+                <img src="images/Tech_Traveller.jpeg" alt="Tech Travellers" class="sobre-mi-img">
+                <div class="overlay">Tech Travellers Podcast</div>
+            </div>
+            <div class="sobre-mi-img-wrapper">
+                <img src="images/Daniel_Jaeger_sentado.jpeg" alt="Daniel Jaeger sentado" class="sobre-mi-img">
+                <div class="overlay">Daniel Jaeger</div>
+            </div>
+            <div class="sobre-mi-img-wrapper">
+                <img src="images/Brais_Moure.jpeg" alt="Brais Moure" class="sobre-mi-img">
+                <div class="overlay">Brais Moure</div>
+            </div>
+        </div>
 
-  <section id="projects" class="card">
-    <h2>Proyectos</h2>
-    <div class="grid">
-      <article class="project">
-        <h3>Consola Retro Personalizada</h3>
-        <p>Diseño y montaje de una consola retro con hardware reciclado y sistemas Linux ligeros.</p>
-        <p class="tags">Hardware · Linux · Retrobat</p>
-      </article>
-      <article class="project">
-        <h3>Scripts de Automatización</h3>
-        <p>Automatización de tareas en Python y Bash para mantenimiento de sistemas.</p>
-        <p class="tags">Python · Bash · Linux</p>
-      </article>
-      <article class="project">
-        <h3>Desarrollo Web</h3>
-        <p>Diseño de páginas web estáticas y dinámicas con HTML, CSS y PHP.</p>
-        <p class="tags">HTML · CSS · PHP</p>
-      </article>
-      <article class="project">
-        <h3>Proyectos 42 Urduliz</h3>
-        <p>Ejercicios y aplicaciones en C enfocados en optimización y seguridad.</p>
-        <p class="tags">C · Ciberseguridad · Algoritmos</p>
-      </article>
-    </div>
-  </section>
+        <div class="sobre-mi-texto-premium">
+            <p>
+                Soy Daniel Jaeger, técnico de sistemas, programador y diseñador de videojuegos. He estudiado ciberseguridad en 42 Urduliz y actualmente trabajo en proyectos que combinan tecnología, creatividad y narrativa.
+            </p>
+            <p>
+                También participo en el podcast <a href="https://open.spotify.com/episode/4Vo2GIznGbCtD3dOc61uNU" target="_blank"><strong>Tech Travellers</strong></a>, para la universidad EUNED en Vitoria-Gasteiz, Álava, donde tratamos temas de tecnología, IA, humor, cine, videojuegos y ciencia ficción.
+            </p>
+            <p>
+                Me apasiona crear mundos, resolver problemas complejos y trabajar con estética retro-futurista influenciada por el cyberpunk y el anime clásico.
+            </p>
+        </div>
+    </section>
 
-  <section id="contact" class="card">
-    <h2>Contacto</h2>
-    <p>📧 <a href="mailto:daniel.iturralde.26@gmail.com">daniel.iturralde.26@gmail.com</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">LinkedIn</a></p>
-    <p>🧰 <a href="https://github.com/DanielJaeger90" target="_blank">GitHub</a></p>
-    <p>📱 +34 638 359 869</p>
+    <!-- ================= PROYECTOS ================= -->
+    <section id="proyectos" class="fade-in">
+        <h2 class="titulo-seccion">Proyectos</h2>
+        <div class="grid">
+            <div class="project">
+                <img src="images/feria-viajes.jpg" alt="Feria de Viajes" class="project-img">
+                <h3>Feria de Viajes 2025</h3>
+                <p>Página web creada a modo de práctica sobre una feria de viajes y turismo.</p>
+                <a href="https://github.com/DanielJaeger90/Feria-de-Viajes-2025" target="_blank">Ver proyecto</a>
+            </div>
 
-    <form action="https://formspree.io/f/xxxxx" method="POST">
-      <label>Nombre<input type="text" name="name" required></label>
-      <label>Mensaje<textarea name="message" required></textarea></label>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+            <div class="project">
+                <img src="images/vaciados-mudanzas.jpg" alt="Vaciados y Mudanzas" class="project-img">
+                <h3>Pagina Web de Vaciados y Mudanzas</h3>
+                <p>Sitio web corporativo para Vaciados y Mudanzas Miranda, empresa especializada en mudanzas, vaciados y limpieza integral en Miranda de Ebro.</p>
+                <a href="https://github.com/DanielJaeger90/Pagina-Web-de-negocio-de-servicios" target="_blank">Ver proyecto</a>
+            </div>
 
-  <footer>
-    <p>© <span id="year"></span> Daniel Jaeger — Portafolio personal</p>
-  </footer>
+            <div class="project">
+                <img src="images/salivajo.jpg" alt="El Juego del Salivajo" class="project-img">
+                <h3>El Juego del Salivajo</h3>
+                <p>Proyecto en JavaScript para practicar lógica y programación de juegos.</p>
+                <a href="https://github.com/DanielJaeger90/El-Juego-del-Salivajo" target="_blank">Ver proyecto</a>
+            </div>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+            <div class="project">
+                <img src="images/c-piscina.jpg" alt="Piscina C" class="project-img">
+                <h3>C01-C02-C03</h3>
+                <p>Ejercicios de la Piscina C01-C03 en C.</p>
+                <a href="https://github.com/DanielJaeger90/C01-C02-C03" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/conecta-4.jpg" alt="Conecta 4" class="project-img">
+                <h3>Conecta 4</h3>
+                <p>Juego clásico de conecta 4 implementado en Python.</p>
+                <a href="https://github.com/DanielJaeger90/Conecta-4" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/formulario.jpg" alt="Formulario HTML" class="project-img">
+                <h3>Formulario HTML y CSS</h3>
+                <p>Formulario estándar creado con HTML y CSS a modo de práctica.</p>
+                <a href="https://github.com/DanielJaeger90/Formulario-HTML-y-CSS" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/adivina-palabra.jpg" alt="Adivina la Palabra" class="project-img">
+                <h3>Adivina la Palabra</h3>
+                <p>Juego en Python que adivina una palabra en un número máximo de intentos.</p>
+                <a href="https://github.com/DanielJaeger90/Adivina-la-Palabra" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/trifuerza.jpg" alt="Trifuerza" class="project-img">
+                <h3>Trifuerza</h3>
+                <p>Dibuja la trifuerza según los datos proporcionados por el usuario mediante Turtle en Python.</p>
+                <a href="https://github.com/DanielJaeger90/Trifuerza" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/sombrero.jpg" alt="Sombrero Seleccionador" class="project-img">
+                <h3>Sombrero Seleccionador</h3>
+                <p>Simula el proceso de selección de casas en el universo mágico de Harry Potter.</p>
+                <a href="https://github.com/DanielJaeger90/Sombrero-Seleccionador" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/retos.jpg" alt="Retos de Programación" class="project-img">
+                <h3>Retos de Programación</h3>
+                <p>Ejercicios de programación online para practicar Python.</p>
+                <a href="https://github.com/DanielJaeger90/Retos-de-Programacion-en-Python" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/morse.jpg" alt="Traductor Morse" class="project-img">
+                <h3>Traductor Código Morse</h3>
+                <p>Traductor a código Morse en Python.</p>
+                <a href="https://github.com/DanielJaeger90/Traductor-Codigo-Morse" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/piscina42.jpg" alt="Piscina 42" class="project-img">
+                <h3>Piscina 42</h3>
+                <p>Proyectos de la piscina de 42 Urduliz.</p>
+                <a href="https://github.com/DanielJaeger90/Piscina42" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/calculadora.jpg" alt="Calculadora Python" class="project-img">
+                <h3>Calculadora Python</h3>
+                <p>Típico ejercicio de calculadora implementada en Python.</p>
+                <a href="https://github.com/DanielJaeger90/Calculadora_Python" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/crud.jpg" alt="Ejercicio CRUD" class="project-img">
+                <h3>Ejercicio CRUD Java & SQL</h3>
+                <p>Ejercicio de CRUD en Java y SQL.</p>
+                <a href="https://github.com/DanielJaeger90/Ejercicio_Crud_Java_SQL" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/ml-phone.jpg" alt="Machine Learning" class="project-img">
+                <h3>Proyecto Final Machine Learning</h3>
+                <p>Estudio de precios de telefonía móvil utilizando técnicas de Machine Learning.</p>
+                <a href="https://github.com/DanielJaeger90/Proyecto-final-Estudio-sobre-precios-aplicando-diversas-t-cnicas-de-Machine-Learning" target="_blank">Ver proyecto</a>
+            </div>
+
+            <div class="project">
+                <img src="images/carrera.jpg" alt="Carrera Python" class="project-img">
+                <h3>Carrera Python</h3>
+                <p>Simulación de carrera entre coche, moto y dragón con obstáculos en Python.</p>
+                <a href="https://github.com/DanielJaeger90/Carrera-en-Python" target="_blank">Ver proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section id="contacto" class="fade-in">
+        <h2>Contacto</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/daniel-iturralde-benito/" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/danieljaeger90/" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://github.com/DanielJaeger90" target="_blank">
+                <img src="images/github.svg" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        © 2025 Daniel Jaeger — Todos los derechos reservados ·  
+        <a href="#top">Volver arriba</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
