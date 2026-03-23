@@ -8,7 +8,7 @@ Este sitio web reúne algunos de mis proyectos de programación, desarrollo web 
 
 Puedes ver el portfolio aquí:
 
-https://danieljaeger90.github.io
+https://danieljaeger90.github.io/Portafolio/
 
 ## 👨‍💻 Sobre mí
 
